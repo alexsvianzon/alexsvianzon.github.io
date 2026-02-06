@@ -1,8 +1,15 @@
 body {
-    background-color: #0b6f1c;
+    background-color: #ababab;
 }
 
 .title {
     color: #0b4ec2;
     font-family: 'Funnel Display', sans-serif;
+    font-size: 64px;
+}
+
+.projects {
+    color: #0b4ec2;
+    font-family: 'Funnel Display', sans-serif;
+    font-size: 32px;
 }
