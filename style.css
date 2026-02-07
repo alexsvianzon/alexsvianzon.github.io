@@ -12,8 +12,6 @@ body {
     color: #000000;
     font-family: 'Funnel Display', sans-serif;
     font-size: 16px;
-    margin: 20px;
-
     display: grid;
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr 1fr;
@@ -25,14 +23,13 @@ body {
     border: black;
     border-width: 1px;
     border-style: solid;
+    margin: 20px;
 }
 
 .socials {
     color: #000000;
     font-family: 'Funnel Display', sans-serif;
     font-size: 16px;
-    margin: 20px;
-
     display: grid;
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr 1fr;
@@ -44,4 +41,5 @@ body {
     border: black;
     border-width: 1px;
     border-style: solid;
+    margin: 20px;
 }
