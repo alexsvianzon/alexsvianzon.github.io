@@ -24,6 +24,7 @@ body {
     border-width: 1px;
     border-style: solid;
     margin: 20px;
+    border-radius: 5px;
 }
 
 .socials {
@@ -42,4 +43,5 @@ body {
     border-width: 1px;
     border-style: solid;
     margin: 20px;
+    border-radius: 5px;
 }
