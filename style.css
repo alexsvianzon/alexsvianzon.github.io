@@ -45,3 +45,9 @@ body {
     margin: 20px;
     border-radius: 5px;
 }
+
+.tiles {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
