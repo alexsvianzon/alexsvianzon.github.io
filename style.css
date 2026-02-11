@@ -49,3 +49,8 @@ body {
     grid-template-rows: 0.25fr 1fr;
     gap: 20px;
 }
+
+#game-div {
+    display: flex;
+    justify-content: center;
+}
