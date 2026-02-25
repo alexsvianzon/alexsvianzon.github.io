@@ -3,6 +3,11 @@ body {
     font-family: 'Funnel Display', sans-serif;
 }
 
+.header {
+    display: grid;
+    grid-template-columns: 0.05fr 1fr;
+}
+
 .title {
     color: #000000;
     font-size: 32px;
