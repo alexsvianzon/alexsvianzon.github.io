@@ -123,6 +123,10 @@ h1 {
     width: 100%;
 }
 
+#why-qanotz-title {
+    border-bottom: 1px solid #000000;
+}
+
 #why-qanotz-reasons {
     display: flex;
     flex-direction: column;
@@ -131,7 +135,7 @@ h1 {
     padding: 32px;
 }
 
-#why-qanotz-reason {
+.why-qanotz-reason {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -139,7 +143,7 @@ h1 {
     gap: 20px;
 }
 
-#why-qanotz-reason p{
+.why-qanotz-reason p{
     font-size: 18px;
 }
 
@@ -148,6 +152,31 @@ h1 {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: #d8a270;
+    background-color: #000000;
     width: 100%;
+    color: #ffffff;
+}
+
+#how-it-works-title {
+    border-bottom: 1px solid #ffffff;
+}
+
+#how-it-works-segments {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 32px;
+}
+
+.how-it-works-segment {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    gap: 20px;
+}
+
+.how-it-works-segment p{
+    font-size: 18px;
 }
