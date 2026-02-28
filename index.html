@@ -7,78 +7,63 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="./style.css">
     </head>
     <body>
-        <div class="title" align="center">
-            pixel0pine's Project Portfolio
-        </div>
-        <div class="projects">
-            <div class="project">
-                <a href="https://github.com/alexsvianzon/median_drift_sort_algorithm">Median Drift Sort Algorithm</a>
-                <p>
-                    Median Drift Sort is a sorting algorithm that I invented. It runs in O(n log n) time on average, and is a stable sort.
-                    You can learn more about it and see the implementation on my GitHub repository linked above.
-                </p>
-            </div>
-            <div class="project">
-                <a href="https://github.com/alexsvianzon/alexsvianzon.github.io">This Website</a>
-                <p>
-                    The GitHub repository for this website. It is built using HTML and CSS, and it is hosted on GitHub Pages.
-                </p>
-            </div>
-            <div class="project">
-                <p>Concatenari</p>
-                <p>
-                    Concatenari is my own TCG/RPG game, currently in development. Hopefully I can release the TCG soon!
-                    You can find the itch.io page for the RPG game demo <a href="https://pixel0pine.itch.io/concatenari-prototype">here.</a>
-                </p>
-            </div>
-            <div class="project">
-                <p>Tiles!</p>
-                <p>
-                    Tiles! is a small puzzle game I made. Goal is to get to the white tile by traversing the various tiles and following their instructions.
-                    I hope to make it available on itch.io soon, but you can play it <a href="./tiles">now!</a>
-                </p>
-            </div>
-            <div class="project">
-                <a href="./qanotz">QANotz</a>
-                <p>
-                    QANotz is my own notes app project. It based in a question and answer format.
-                </p>
-            </div>
-            <div class="project">
-                <p>More to Come</p>
-                <p>
-                    There's more to come! Stay tuned.
-                </p>
+        <div id="header">
+            <img src="./favicon.png" height="32" class="header-item">
+            <div id="title" class="header-item" align="center">
+                <a href="#top">Portfolio</a>
             </div>
         </div>
-        <div class="socials">
-            <div class="social">
-                <a href="https://www.youtube.com/@pixel0pine">My YouTube Channel</a>
-                <p>
-                    I (plan to) post videos about programming, game development, and the like. Right now it's just Minecraft content. Enjoy!
-                </p>
+        <div id="content-grid">
+            <a href="https://github.com/alexsvianzon/median_drift_sort_algorithm">
+                <div class="grid-item github-link">
+                    <h2>Median Drift Sort Algorithm</h2>
+                    <p>A small sorting alogrithm I designed. It runs in O(n log n) time.</p>
+                </div>            
+            </a>
+            <a href="https://github.com/alexsvianzon/alexsvianzon.github.io">
+                <div class="grid-item github-link">
+                    <h2>alexsvianzon.github.io</h2>
+                    <p>My personal website and blog</p>
+                </div>
+            </a>
+            <a href="./qanotz/">
+                <div class="grid-item github-link">
+                    <h2>QANotz</h2>
+                    <p>Study notes made simple</p>
+                </div>
+            </a>
+            <div class="grid-item game-link">
+                <h2>Concatenari</h2>
+                <p>Concatenari is my own TCG/RPG game, in development. I'll get the TCG out someday! For now, I have an RPG mechanics test at <a href="https://pixel0pine.itch.io/concatenari-prototype" class="visible-link">here.</a></p>
             </div>
-            <div class="social">
-                <a href="https://github.com/alexsvianzon">GitHub</a>
-                <p>
-                    My GitHub profile, where I post all of my projects, including the ones listed on this website. Check it out for more projects and code!
-                </p>
-            </div>
-            <div class="social">
-                <a href="https://pixel0pine.itch.io">itch.io</a>
-                <p>
-                    My itch.io profile, where I post my more polished games. There should be more to come!
-                </p>
-            </div>
-            <div class="project">
-                <p>That's all!</p>
-                <p>
-                    That's everything I have to showcase for now. Thanks for checking my page out!
-                </p>
-            </div>
+            <a href="./tiles/">
+                <div class="grid-item game-link">
+                    <h2>Tiles</h2>
+                    <p>Tiles is a small puzzle game I am working on. The version on the page just has the account functionality.</p>
+                </div>
+            </a>
+            <a href="https://www.youtube.com/@pixel0pine">
+                <div class="grid-item social-link">
+                    <h2>YouTube Channel</h2>
+                    <p>I (plan to) post videos about programming, game development, and the like. Right now it's just Minecraft content.</p>
+                </div>
+            </a>
+            <a href="https://github.com/alexsvianzon">
+                <div class="grid-item social-link">
+                    <h2>GitHub</h2>
+                    <p>My GitHub profile, where I post all of my projects, including the ones listed on this website. Check it out for more projects and code!</p>
+                </div>
+            </a>
+            <a href="https://pixel0pine.itch.io/">
+                <div class="grid-item social-link">
+                    <h2>itch.io</h2>
+                    <p>My itch.io profile where I post all of my more polished projects. There should be more to come!</p>
+                </div>
+            </a>
         </div>
     </body>
 </html>
