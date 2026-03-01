@@ -6,6 +6,7 @@ body {
     background-color: #ffffff;
     font-family: 'Lato', sans-serif;
     margin: 0;
+    overflow-x: hidden;
 }
 
 a {
@@ -190,8 +191,4 @@ h1 {
     width: 100%;
     padding: 20px;
     font-size: 14px;
-}
-
-html, body {
-    overflow-x: hidden;
 }

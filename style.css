@@ -6,6 +6,7 @@ body {
     background-color: #ffffff;
     font-family: 'Funnel Display', sans-serif;
     margin: 0;
+    overflow-x: hidden;
 }
 
 a {
@@ -101,8 +102,4 @@ a {
     p {
         font-size: 20px;
     }
-}
-
-html, body {
-    overflow-x: hidden;
 }
