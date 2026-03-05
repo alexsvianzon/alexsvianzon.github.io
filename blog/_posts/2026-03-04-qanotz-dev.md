@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "My First Post"
+title: "What I Learned While Making My Own Notes App"
 ---
 
 Hello! This is my first blog post.
