@@ -34,6 +34,11 @@ body {
     padding-bottom: 5px;
 }
 
+main {
+    background-color: #70a6d8;
+    padding: 20px;
+}
+
 h1 {
     font-family: 'Gabarito', sans-serif;
     font-weight: 600;

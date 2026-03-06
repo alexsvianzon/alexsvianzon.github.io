@@ -6,25 +6,27 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
-        <link rel="icon" href="../favicon.png" type="image/x-icon">
+        <link rel="icon" href="/assets/images/favicon.png" type="image/x-icon">
         <link rel="stylesheet" type="text/css" href="/main.css">
         <link rel="stylesheet" type="text/css" href="./style.css">
     </head>
     <body>
         <div id="header">
-            <img src="/assets/images/favicon.png" height="32" class="header-item">
+            <a href="/"><img src="/assets/images/favicon.png" height="32" class="header-item"></a>
             <div id="title" class="header-item" align="center">
-                <a href="#top">Portfolio</a>
+                <a href="#top">Tiles</a>
             </div>
         </div>
-        <div class="tiles">
-            <p>
-                The soon-to-be released puzzle game will be on this page! Right now, I'm just testing the account feature for leaderboards and progress save data. If you want, make an account and you'll be set to play when it releases!
-            </p>
-            <div id="game-div">
-                <iframe src="./tiles/tiles.html" title="Tiles!" width="80%" height="500px" id="game-container" style="height: 290.812px;"></iframe>
+        <main>
+            <div class="tiles">
+                <p>
+                    The soon-to-be released puzzle game will be on this page! Right now, I'm just testing the account feature for leaderboards and progress save data. If you want, make an account and you'll be set to play when it releases!
+                </p>
+                <div id="game-div">
+                    <iframe src="./tiles/tiles.html" title="Tiles!" width="80%" height="500px" id="game-container" style="height: 290.812px;"></iframe>
+                </div>
             </div>
-        </div>
+        </main>
     </body>
     <script src="./script.js"></script>
 </html>
