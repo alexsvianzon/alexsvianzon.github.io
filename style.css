@@ -1,9 +1,6 @@
 #content-grid {
-    background-color: #70a6d8;
     width: 100%;
     gap: 20px;
-    padding-top: 20px;
-    padding-bottom: 20px;
 }
 
 .grid-item {
